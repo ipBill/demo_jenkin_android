@@ -1,6 +1,6 @@
 Feature: Convert score to grade feature
 
-  Scenario Outline: User can convert a score to grade
+  Scenario Outline: User can convert a score to grade with example
     When I enter "<score>" as "score"
     And I press "convert"
     Then I wait for "Your grade = <grade>" to appear
@@ -12,3 +12,5 @@ Feature: Convert score to grade feature
 	|  60   |  C    |
 	|  50   |  D    |
 	|  40   |  F    |
+
+
