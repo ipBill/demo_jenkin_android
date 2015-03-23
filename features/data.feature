@@ -1,7 +1,6 @@
 Feature: Convert score to grade feature
 
   Scenario Outline: User can convert a score to grade
-    Given my app is running
     When I enter "<score>" as "score"
     And I press "convert"
     Then I wait for "Your grade = <grade>" to appear
